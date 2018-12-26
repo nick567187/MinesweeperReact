@@ -4,5 +4,15 @@
 	border-width: 1px;
 	text-align: center;
   border-style: solid;
+  height: 18px;
 }
 
+.pressed {
+	height: 18px;
+	width: 18px;
+	border-color: black;
+	border-width: 1px;
+	text-align: center;
+  border-style: solid;
+  background-color: rgb(210,210,210);
+}
