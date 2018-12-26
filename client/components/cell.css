@@ -1,0 +1,8 @@
+.cell {
+	width: 18px;
+	border-color: black;
+	border-width: 1px;
+	text-align: center;
+  border-style: solid;
+}
+

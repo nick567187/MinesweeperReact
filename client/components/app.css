@@ -1,0 +1,22 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.easy {
+	display:flex;
+	flex-wrap: wrap;
+	width: 200px;
+}
+
+.medium {
+	display:flex;
+	flex-wrap: wrap;
+	width: 240px;
+}
+
+.hard {
+	display:flex;
+	flex-wrap: wrap;
+	width: 300px;
+}
