@@ -11,7 +11,7 @@ const Cell = (props) => {
 	    	cellStyle = styles.cell;
 	    }
 	  return (
-	    <span className={cellStyle} onClick={() => props.revealSquare(props.i, props.j)}> { view } </span>
+	    <span className={cellStyle} onClick={props.clickHandler}> { view } </span>
 	  );	
 };
 

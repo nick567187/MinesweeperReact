@@ -161,7 +161,7 @@ class Board extends React.Component {
 	      	{board.map(rows => {
 	      		return rows.map(item => {
               return (
-                <Cell revealSquare={this.revealSquare} i={item.i} j={item.j} value={item.value} neighbors={item.neighbors} revealed={item.revealed}/>                  
+                <Cell clickHandler={() => this.revealSquare(item.i, item.j)} value={item.value} neighbors={item.neighbors} revealed={item.revealed}/>                  
               );
             })
           })}
